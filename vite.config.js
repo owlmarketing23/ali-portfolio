@@ -9,6 +9,11 @@ export default defineConfig({
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
+      import { defineConfig } from 'vite'
+
+export default defineConfig({
+  base: '/ali-portfolio/',
+})
     },
   },
 })
